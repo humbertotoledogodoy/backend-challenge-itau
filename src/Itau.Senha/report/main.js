@@ -238,7 +238,7 @@ var assemblies = [
     "name": "Itau.Senha.Domain",
     "classes": [
       { "name": "Itau.Senha.Domain.SeedWork.BaseResponse", "rp": "Itau.Senha.Domain_BaseResponse.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 22, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Itau.Senha.Domain.SeedWork.ValidationError", "rp": "Itau.Senha.Domain_ValidationError.html", "cl": 7, "ucl": 3, "cal": 10, "tl": 17, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Itau.Senha.Domain.SeedWork.ValidationError", "rp": "Itau.Senha.Domain_ValidationError.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 15, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "Itau.Senha.Domain.Core",
@@ -247,11 +247,11 @@ var assemblies = [
   {
     "name": "Itau.Senha.WebApi",
     "classes": [
-      { "name": "Itau.Senha.WebApi.Configurations.ConfigureSwaggerOptions", "rp": "Itau.Senha.WebApi_ConfigureSwaggerOptions.html", "cl": 24, "ucl": 0, "cal": 24, "tl": 42, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "Itau.Senha.WebApi.Configurations.ConfigureSwaggerOptions", "rp": "Itau.Senha.WebApi_ConfigureSwaggerOptions.html", "cl": 24, "ucl": 0, "cal": 24, "tl": 43, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "Itau.Senha.WebApi.Controllers.SenhaController", "rp": "Itau.Senha.WebApi_SenhaController.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 27, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "Itau.Senha.WebApi.Middlewares.TraceMiddleware", "rp": "Itau.Senha.WebApi_TraceMiddleware.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 12, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Itau.Senha.WebApi.Program", "rp": "Itau.Senha.WebApi_Program.html", "cl": 11, "ucl": 14, "cal": 25, "tl": 46, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "Itau.Senha.WebApi.Startup", "rp": "Itau.Senha.WebApi_Startup.html", "cl": 42, "ucl": 0, "cal": 42, "tl": 66, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "Itau.Senha.WebApi.Program", "rp": "Itau.Senha.WebApi_Program.html", "cl": 11, "ucl": 14, "cal": 25, "tl": 45, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "Itau.Senha.WebApi.Startup", "rp": "Itau.Senha.WebApi_Startup.html", "cl": 42, "ucl": 0, "cal": 42, "tl": 65, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 
