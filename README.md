@@ -10,7 +10,7 @@ Backend do challenge proposto para validação de senha.
     ```
     dotnet run -p src\Itau.Senha\Itau.Senha.WebApi
     ```
-**E** abrir o swagger na url https://localhost:5001/swagger/index.html ou http://localhost:5000/swagger/index.html 
+e abrir o swagger na url https://localhost:5001/swagger/index.html ou http://localhost:5000/swagger/index.html 
 -----
 
 ## Características do projeto:
