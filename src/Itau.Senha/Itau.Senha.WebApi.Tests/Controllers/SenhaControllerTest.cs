@@ -11,7 +11,7 @@ namespace Itau.Senha.WebApi.Tests.Controllers
         private readonly Mock<IValidarSenhaUseCase> validarSenhaUseCase = new Mock<IValidarSenhaUseCase>();
 
         [Test]
-        public async System.Threading.Tasks.Task SenhaControllerValida()
+        public async System.Threading.Tasks.Task QuandoSenhaControllerForValida()
         {
             validarSenhaUseCase.Setup(x => x.Execute(It.IsAny<ValidarSenhaRequest>(), default)).ReturnsAsync(new ValidarSenhaResponse {  SenhaValida = true});
             var senhaController = new SenhaController(validarSenhaUseCase.Object);
@@ -21,7 +21,7 @@ namespace Itau.Senha.WebApi.Tests.Controllers
         }
 
         [Test]
-        public async System.Threading.Tasks.Task SenhaControllerInvalida()
+        public async System.Threading.Tasks.Task QuandoSenhaControllerForInvalida()
         {
             validarSenhaUseCase.Setup(x => x.Execute(It.IsAny<ValidarSenhaRequest>(), default)).ReturnsAsync(new ValidarSenhaResponse { SenhaValida = false });
             var senhaController = new SenhaController(validarSenhaUseCase.Object);

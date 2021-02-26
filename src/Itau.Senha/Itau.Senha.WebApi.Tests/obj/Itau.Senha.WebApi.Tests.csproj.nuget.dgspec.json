@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj": {}
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj": {}
   },
   "projects": {
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj": {
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj",
+        "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj",
         "projectName": "Itau.Senha.Application.Core",
-        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj",
+        "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj",
         "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\obj\\",
+        "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,11 +29,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj"
               },
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
               }
             }
           }
@@ -63,9 +63,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -74,14 +71,14 @@
         }
       }
     },
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj": {
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj",
+        "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj",
         "projectName": "Itau.Senha.Application",
-        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj",
+        "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj",
         "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\obj\\",
+        "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,11 +96,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj"
               },
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
               }
             }
           }
@@ -141,9 +138,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -152,14 +146,14 @@
         }
       }
     },
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj",
+        "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj",
         "projectName": "Itau.Senha.Domain.Core",
-        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj",
+        "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj",
         "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\obj\\",
+        "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -228,14 +222,14 @@
         }
       }
     },
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj",
+        "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj",
         "projectName": "Itau.Senha.Domain",
-        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj",
+        "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj",
         "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\obj\\",
+        "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,8 +247,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj"
               }
             }
           }
@@ -292,9 +286,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -303,14 +294,14 @@
         }
       }
     },
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj": {
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
+        "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
         "projectName": "Itau.Senha.WebApi.Tests",
-        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
+        "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
         "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\obj\\",
+        "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -328,8 +319,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj"
               }
             }
           }
@@ -375,9 +366,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -386,14 +374,14 @@
         }
       }
     },
-    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
+    "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj",
+        "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj",
         "projectName": "Itau.Senha.WebApi",
-        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj",
+        "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj",
         "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\obj\\",
+        "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -411,11 +399,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj"
               },
-              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
-                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
+              "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+                "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
               }
             }
           }

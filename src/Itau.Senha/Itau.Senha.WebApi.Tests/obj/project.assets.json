@@ -2390,10 +2390,7 @@
         },
         "runtime": {
           "bin/placeholder/Itau.Senha.Application.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Itau.Senha.Application.Core/1.0.0": {
         "type": "project",
@@ -2408,10 +2405,7 @@
         },
         "runtime": {
           "bin/placeholder/Itau.Senha.Application.Core.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Itau.Senha.Domain/1.0.0": {
         "type": "project",
@@ -2427,10 +2421,7 @@
         },
         "runtime": {
           "bin/placeholder/Itau.Senha.Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "Itau.Senha.Domain.Core/1.0.0": {
         "type": "project",
@@ -7911,11 +7902,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
+      "projectUniqueName": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
       "projectName": "Itau.Senha.WebApi.Tests",
-      "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
+      "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
       "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
-      "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\obj\\",
+      "outputPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7933,8 +7924,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
-              "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj"
+            "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
+              "projectPath": "D:\\test\\backend-challenge-itau\\src\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj"
             }
           }
         }
@@ -7980,9 +7971,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
