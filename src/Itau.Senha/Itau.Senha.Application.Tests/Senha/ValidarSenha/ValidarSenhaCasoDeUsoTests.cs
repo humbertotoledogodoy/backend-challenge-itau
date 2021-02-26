@@ -54,8 +54,8 @@ namespace Itau.Senha.Application.Tests.Senha.ValidarSenha
         }
 
         [Test]
-        [Description("Quando Senha For vazia O Resultado SenhaValida Deve Ser De Erro")]
-        public async Task Quando_Senha_For_vazia_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
+        [Description("Quando A Senha For vazia O Resultado SenhaValida Deve Ser De Erro")]
+        public async Task Quando_A_Senha_For_vazia_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
         {
             //arrange
             var validarSenhaRequest = new ValidarSenhaRequest() { Senha = ""};
@@ -69,8 +69,8 @@ namespace Itau.Senha.Application.Tests.Senha.ValidarSenha
         }
 
         [Test]
-        [Description("Quando Senha Conter Somente Caracteres Minusculos E Duplicados O Resultado SenhaValida Deve Ser De Erro")]
-        public async Task Quando_Senha_Conter_Somente_Caracteres_Minusculos_E_Duplicados_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
+        [Description("Quando A Senha Conter Somente Caracteres Minusculos E Duplicados O Resultado SenhaValida Deve Ser De Erro")]
+        public async Task Quando_A_Senha_Conter_Somente_Caracteres_Minusculos_E_Duplicados_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
         {
             //arrange
             var validarSenhaRequest = new ValidarSenhaRequest() { Senha = "aa" };
@@ -84,8 +84,8 @@ namespace Itau.Senha.Application.Tests.Senha.ValidarSenha
         }
 
         [Test]
-        [Description("Quando Senha Conter Somente Caracteres Minusculos O Resultado SenhaValida Deve Ser De Erro")]
-        public async Task Quando_Senha_Conter_Somente_Caracteres_Minusculos_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
+        [Description("Quando A Senha Conter Somente Caracteres Minusculos O Resultado SenhaValida Deve Ser De Erro")]
+        public async Task Quando_A_Senha_Conter_Somente_Caracteres_Minusculos_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
         {
             //arrange
             var validarSenhaRequest = new ValidarSenhaRequest() { Senha = "ab" };
@@ -99,8 +99,8 @@ namespace Itau.Senha.Application.Tests.Senha.ValidarSenha
         }
 
         [Test]
-        [Description("Quando Senha Conter Caracteres Maiusculos Minusculos E Duplicados O Resultado SenhaValida Deve Ser De Erro")]
-        public async Task Quando_Senha_Conter_Caracteres_Maiusculos_Minusculos_E_Duplicados_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
+        [Description("Quando A Senha Conter Caracteres Maiusculos Minusculos E Duplicados O Resultado SenhaValida Deve Ser De Erro")]
+        public async Task Quando_A_Senha_Conter_Caracteres_Maiusculos_Minusculos_E_Duplicados_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
         {
             //arrange
             var validarSenhaRequest = new ValidarSenhaRequest() { Senha = "AAAbbbCc" };
@@ -129,8 +129,8 @@ namespace Itau.Senha.Application.Tests.Senha.ValidarSenha
         }
 
         [Test]
-        [Description("Quando Senha Nao Conter Ao Menos Um Caracter Especial O Resultado SenhaValida Deve Ser De Erro")]
-        public async Task Quando_Senha_Nao_Conter_Ao_Menos_Um_Caracter_Especial_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
+        [Description("Quando ASenha Nao Conter Ao Menos Um Caracter Especial O Resultado SenhaValida Deve Ser De Erro")]
+        public async Task Quando_A_Senha_Nao_Conter_Ao_Menos_Um_Caracter_Especial_O_Resultado_SenhaValida_Deve_Ser_De_Erro()
         {
             //arrange
             var validarSenhaRequest = new ValidarSenhaRequest() { Senha = "AbTp9 fok" };
