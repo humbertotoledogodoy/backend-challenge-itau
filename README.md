@@ -12,7 +12,7 @@ Backend do challenge proposto para validação de senha.
     ```
 -----
 ## Quality Gate
-- A pasta `src\Itau.Senha\report` contem os arquivos de Quality Gate do projeto, podendo ser acessado pelo arquivo `src\Itau.Senha\report\index.htm`, 
+- A pasta `src\Itau.Senha\report` contem os arquivos de Quality Gate do projeto, podendo ser acessado pelo arquivo `src\Itau.Senha\report\index.htm` 
 
 
 ## Características do projeto:
@@ -25,5 +25,4 @@ Backend do challenge proposto para validação de senha.
 - Projeto para testes de Integração
 - Controllers e Actions atendendo os padrões RESTFul
 - Framework de logs: **NLog**
-- Pasta report contento do Quality Gate do projeto
 -----
