@@ -11,6 +11,9 @@ Backend do challenge proposto para validação de senha.
     dotnet run -p src\Itau.Senha\Itau.Senha.WebApi
     ```
 -----
+## Quality Gate
+- A pasta `src\Itau.Senha\report` contem os arquivos de Quality Gate do projeto, podendo ser acessado pelo arquivo `src\Itau.Senha\report\index.htm`, 
+
 
 ## Características do projeto:
 
