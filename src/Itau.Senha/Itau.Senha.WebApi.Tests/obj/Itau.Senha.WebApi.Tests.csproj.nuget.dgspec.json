@@ -1,0 +1,500 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj",
+        "projectName": "Itau.Senha.Application.Core",
+        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/PWA/": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj"
+              },
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj",
+        "projectName": "Itau.Senha.Application",
+        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/PWA/": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application.Core\\Itau.Senha.Application.Core.csproj"
+              },
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj",
+        "projectName": "Itau.Senha.Domain.Core",
+        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/PWA/": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj",
+        "projectName": "Itau.Senha.Domain",
+        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/PWA/": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain.Core\\Itau.Senha.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
+        "projectName": "Itau.Senha.WebApi.Tests",
+        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\Itau.Senha.WebApi.Tests.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/PWA/": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentAssertions.Web": {
+              "target": "Package",
+              "version": "[1.0.125, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj",
+        "projectName": "Itau.Senha.WebApi",
+        "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\Itau.Senha.WebApi.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/PWA/": {},
+          "https://nexus.csfcpv.wcorp.carrefour.com/repository/nuget-group/": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Application\\Itau.Senha.Application.csproj"
+              },
+              "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj": {
+                "projectPath": "D:\\Humberto\\backend-challenge\\Itau.Senha\\Itau.Senha.Domain\\Itau.Senha.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer": {
+              "target": "Package",
+              "version": "[4.1.1, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUi": {
+              "target": "Package",
+              "version": "[5.5.1, )"
+            },
+            "prometheus-net": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.112\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
